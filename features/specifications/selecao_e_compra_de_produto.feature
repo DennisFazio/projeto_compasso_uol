@@ -7,7 +7,7 @@
       -- Caso eu não goste, quero voltar e selecionar outro produto
 
       Contexto: Estou logado na home do site
-      Dado que estou ma home do site automationpractice
+      Dado que estou na home do site automationpractice
       
       @web_front @product_details
       Esquema do Cenario: Pesquisar um produto e visualizar seus detalhes

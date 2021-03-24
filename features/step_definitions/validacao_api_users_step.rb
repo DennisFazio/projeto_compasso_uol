@@ -1,34 +1,30 @@
 # frozen_string_literal: true
 
 ######  DADO  ######
-Dado("que estou na home do site automationpractice") do
-  home.load
-  binding.pry
+Dado("quando realizado um get para api users sem passar parametros") do
+  pending # Write code here that turns the phrase above into concrete actions
 end
 
 ######  QUANDO  ######
-Quando("realizo a busca pelo produto {string}") do |string|
+Quando("quando realizado um get passando um nome aleatório do arquivo de users") do
   pending # Write code here that turns the phrase above into concrete actions
 end
 
-Quando("seleciono para visualizar mais detalhes do produto") do
-  pending # Write code here that turns the phrase above into concrete actions
-end
-
-Quando("adiciono o primeiro produto ao carrinho") do
+Quando("realizo um get para o endpoint posts com o primeiro ID User retornado do get anterior") do
   pending # Write code here that turns the phrase above into concrete actions
 end
 
 ######  ENTÃO  ######
 
-Então("devo visualizar o detalhe do produto selecionado") do
+Então("devo validar se o statuscode retornou {int}") do |int|
+  # Então('devo validar se o statuscode retornou {float}') do |float|
   pending # Write code here that turns the phrase above into concrete actions
 end
 
-Então("devo visualizar o produto no carrinho") do
+Então("validar se todos elementos do array data possuem o nome pesquisado") do
   pending # Write code here that turns the phrase above into concrete actions
 end
 
-Então("finalizar o processo de compra do produto selecionado") do
+Então("validar se todos os posts retornados são do usuário pesquisado") do
   pending # Write code here that turns the phrase above into concrete actions
 end

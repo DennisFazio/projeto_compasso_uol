@@ -1,12 +1,12 @@
 # frozen_string_literal: true
 
 # Pagina de login
-class LoginPage < SitePrism::Page
+class Home < SitePrism::Page
   element :email, 'input[ng-model="loginCtrl.form.username"]'
   element :senha, 'input[ng-model="loginCtrl.form.password"]'
   element :btn_login, 'button[type="submit"]'
 
-  set_url "/"
+  set_url ""
 
   def login
     @usuario_logado = USUARIO["Nomeusuario"]
