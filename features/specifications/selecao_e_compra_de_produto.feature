@@ -12,7 +12,7 @@
       @web_front @product_details
       Esquema do Cenario: Pesquisar um produto e visualizar seus detalhes
       Quando realizo a busca pelo produto '<produto>'
-      E seleciono para visualizar mais detalhes do produto
+      E seleciono para visualizar mais detalhes do produto retornado
       Então devo visualizar o detalhe do produto selecionado
 
       Exemplos:

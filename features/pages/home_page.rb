@@ -1,19 +1,20 @@
 # frozen_string_literal: true
 
-# Pagina de login
 class Home < SitePrism::Page
-  element :email, 'input[ng-model="loginCtrl.form.username"]'
-  element :senha, 'input[ng-model="loginCtrl.form.password"]'
-  element :btn_login, 'button[type="submit"]'
-
   set_url ""
 
-  def login
-    @usuario_logado = USUARIO["Nomeusuario"]
+  element :product_search_top, "#search_query_top"
+  element :btn_submit_search, 'button[name="submit_search"]'
+
+  def busca_produto_home(nome_produto)
+    product_search_top.set nome_produto
+    btn_submit_search.click
+  end
+
+  def busca_prod
     @email_logado = USUARIO["username"]
     senha = USUARIO["senha"]
     email.set @email_logado
     senha.set senha
-    btn_login.click
   end
 end
