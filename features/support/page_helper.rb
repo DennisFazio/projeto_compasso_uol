@@ -6,4 +6,12 @@ module PageObjects
   def home
     @home ||= Home.new
   end
+
+  def search_result
+    @search_result ||= Search_Result.new
+  end
+
+  def product_details
+    @product_details ||= Product_Details.new
+  end
 end

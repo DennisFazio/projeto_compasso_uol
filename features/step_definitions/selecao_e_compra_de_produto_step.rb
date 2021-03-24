@@ -3,16 +3,15 @@
 ######  DADO  ######
 Dado("que estou na home do site automationpractice") do
   home.load
-  binding.pry
 end
 
 ######  QUANDO  ######
-Quando("realizo a busca pelo produto {string}") do |string|
-  pending # Write code here that turns the phrase above into concrete actions
+Quando("realizo a busca pelo produto {string}") do |nome_produto|
+  home.busca_produto_home(nome_produto)
 end
 
-Quando("seleciono para visualizar mais detalhes do produto") do
-  pending # Write code here that turns the phrase above into concrete actions
+Quando("seleciono para visualizar mais detalhes do produto retornado") do
+  search_result.clica_exibir_detalhe_produto_posicao(1)
 end
 
 Quando("adiciono o primeiro produto ao carrinho") do
@@ -22,7 +21,7 @@ end
 ######  ENTÃO  ######
 
 Então("devo visualizar o detalhe do produto selecionado") do
-  pending # Write code here that turns the phrase above into concrete actions
+  product_details.print_detalhes_produto
 end
 
 Então("devo visualizar o produto no carrinho") do
