@@ -1,0 +1,7 @@
+{"id"=>1392, "user_id"=>7, "title"=>"Meu primeiro post", "body"=>"blablablablablablablabalb", "created_at"=>"2021-03-25T17:29:47.811+05:30", "updated_at"=>"2021-03-25T17:29:47.811+05:30"}
+{"id"=>1392, "user_id"=>7, "title"=>"Meu primeiro post", "body"=>"blablablablablablablabalb", "created_at"=>"2021-03-25T17:29:47.811+05:30", "updated_at"=>"2021-03-25T17:29:47.811+05:30"}
+{"id"=>1392, "user_id"=>7, "title"=>"Meu primeiro post", "body"=>"blablablablablablablabalb", "created_at"=>"2021-03-25T17:29:47.811+05:30", "updated_at"=>"2021-03-25T17:29:47.811+05:30"}
+{"id"=>1392, "user_id"=>7, "title"=>"Meu primeiro post", "body"=>"blablablablablablablabalb", "created_at"=>"2021-03-25T17:29:47.811+05:30", "updated_at"=>"2021-03-25T17:29:47.811+05:30"}
+{"id"=>1394, "user_id"=>7, "title"=>"Meu primeiro post2", "body"=>"blablablablablablablabalb2", "created_at"=>"2021-03-25T18:42:34.364+05:30", "updated_at"=>"2021-03-25T18:42:34.364+05:30"}
+{"id"=>1392, "user_id"=>7, "title"=>"Meu primeiro post", "body"=>"blablablablablablablabalb", "created_at"=>"2021-03-25T17:29:47.811+05:30", "updated_at"=>"2021-03-25T17:29:47.811+05:30"}
+{"id"=>1394, "user_id"=>7, "title"=>"Meu primeiro post2", "body"=>"blablablablablablablabalb2", "created_at"=>"2021-03-25T18:42:34.364+05:30", "updated_at"=>"2021-03-25T18:42:34.364+05:30"}

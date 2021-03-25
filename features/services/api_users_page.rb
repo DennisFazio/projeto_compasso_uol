@@ -44,12 +44,14 @@ class APIUsers
   def post_posts_by_username_id(id)
     url = "#{API[AMBIENTE]}/users/#{id}/posts"
     @header = { 'content-type': "application/json",
+                'Accept': "application/json",
                 'Authorization': "Bearer #{USER["token"]}" }
-    @body = { "title": "post da automação #{Time.now}",
-             "body": "blablablablablablablabalb #{Time.now}" }
+    @body = { "title": "post da automacao #{Time.now}",
+              "body": "blablablablablablablabalb #{Time.now}" }
 
     response = HTTParty.post(url,
-                             headers: @header)
+                             headers: @header,
+                             body: @body)
 
     response
   rescue StandardError => e
