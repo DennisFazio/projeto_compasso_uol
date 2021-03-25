@@ -14,4 +14,24 @@ module PageObjects
   def product_details
     @product_details ||= Product_Details.new
   end
+
+  def summary
+    @summary ||= Summary.new
+  end
+
+  def authentication
+    @authentication ||= Authentication.new
+  end
+
+  def main_menu
+    @main_menu ||= MainMenu.new
+  end
+
+  def shipping
+    @shipping ||= Shipping.new
+  end
+
+  def payment
+    @payment ||= Payment.new
+  end
 end
