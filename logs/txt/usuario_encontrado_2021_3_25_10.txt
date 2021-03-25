@@ -1,0 +1,13 @@
+{"id"=>7, "name"=>"AAAA", "email"=>"adiga_suryakanta@hermiston.com", "gender"=>"Female", "status"=>"Inactive", "created_at"=>"2021-03-25T03:50:04.020+05:30", "updated_at"=>"2021-03-25T16:44:13.482+05:30"}
+{"id"=>7, "name"=>"AAAA", "email"=>"adiga_suryakanta@hermiston.com", "gender"=>"Female", "status"=>"Inactive", "created_at"=>"2021-03-25T03:50:04.020+05:30", "updated_at"=>"2021-03-25T16:44:13.482+05:30"}
+{"id"=>7, "name"=>"AAAA", "email"=>"adiga_suryakanta@hermiston.com", "gender"=>"Female", "status"=>"Inactive", "created_at"=>"2021-03-25T03:50:04.020+05:30", "updated_at"=>"2021-03-25T16:44:13.482+05:30"}
+{"id"=>7, "name"=>"AAAA", "email"=>"adiga_suryakanta@hermiston.com", "gender"=>"Female", "status"=>"Inactive", "created_at"=>"2021-03-25T03:50:04.020+05:30", "updated_at"=>"2021-03-25T16:44:13.482+05:30"}
+{"id"=>7, "name"=>"AAAA", "email"=>"adiga_suryakanta@hermiston.com", "gender"=>"Female", "status"=>"Inactive", "created_at"=>"2021-03-25T03:50:04.020+05:30", "updated_at"=>"2021-03-25T16:44:13.482+05:30"}
+{"id"=>7, "name"=>"AAAA", "email"=>"adiga_suryakanta@hermiston.com", "gender"=>"Female", "status"=>"Inactive", "created_at"=>"2021-03-25T03:50:04.020+05:30", "updated_at"=>"2021-03-25T16:44:13.482+05:30"}
+{"id"=>7, "name"=>"AAAA", "email"=>"adiga_suryakanta@hermiston.com", "gender"=>"Female", "status"=>"Inactive", "created_at"=>"2021-03-25T03:50:04.020+05:30", "updated_at"=>"2021-03-25T16:44:13.482+05:30"}
+{"id"=>7, "name"=>"AAAA", "email"=>"adiga_suryakanta@hermiston.com", "gender"=>"Female", "status"=>"Inactive", "created_at"=>"2021-03-25T03:50:04.020+05:30", "updated_at"=>"2021-03-25T16:44:13.482+05:30"}
+{"id"=>7, "name"=>"AAAA", "email"=>"adiga_suryakanta@hermiston.com", "gender"=>"Female", "status"=>"Inactive", "created_at"=>"2021-03-25T03:50:04.020+05:30", "updated_at"=>"2021-03-25T16:44:13.482+05:30"}
+{"id"=>7, "name"=>"AAAA", "email"=>"adiga_suryakanta@hermiston.com", "gender"=>"Female", "status"=>"Inactive", "created_at"=>"2021-03-25T03:50:04.020+05:30", "updated_at"=>"2021-03-25T16:44:13.482+05:30"}
+{"id"=>7, "name"=>"AAAA", "email"=>"adiga_suryakanta@hermiston.com", "gender"=>"Female", "status"=>"Inactive", "created_at"=>"2021-03-25T03:50:04.020+05:30", "updated_at"=>"2021-03-25T16:44:13.482+05:30"}
+{"id"=>7, "name"=>"AAAA", "email"=>"adiga_suryakanta@hermiston.com", "gender"=>"Female", "status"=>"Inactive", "created_at"=>"2021-03-25T03:50:04.020+05:30", "updated_at"=>"2021-03-25T16:44:13.482+05:30"}
+{"id"=>7, "name"=>"AAAA", "email"=>"adiga_suryakanta@hermiston.com", "gender"=>"Female", "status"=>"Inactive", "created_at"=>"2021-03-25T03:50:04.020+05:30", "updated_at"=>"2021-03-25T16:44:13.482+05:30"}

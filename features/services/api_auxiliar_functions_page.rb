@@ -27,18 +27,21 @@ class APIAuxiliarFunctions
       puts "Erro ao chamar a retorna_dados_primeiro_user"
       puts "Status code diferente de 200. Status code encontrado: #{retorno["code"]}"
     end
+    ArquivosOutput.new.registra_usuario_encontrado(usuario)
     usuario
   end
 
   def verifica_retorno_posts_by_id(retorno, user_id)
     body = JSON.parse(retorno.body)
     ret = "Todos os posts são do user_id #{user_id}"
+
     body["data"].each do |post|
-      puts post["title"]
+      ArquivosOutput.new.registra_post_encontrados(post)
       if post["user_id"] != user_id
         ret = "Post numero #{post["id"]} não pertence ao user_id #{user_id}"
         break
       end
     end
+    ret
   end
 end

@@ -35,5 +35,6 @@ end
 
 Então("validar se todos os posts retornados são do usuário pesquisado") do
   expect(@retorno["code"]).to eql 200
-  ret = api_auxiliar_functions.verifica_retorno_posts_by_id(@retorno, @user["Id"])
+  ret = api_auxiliar_functions.verifica_retorno_posts_by_id(@retorno, @user["id"])
+  expect(ret).to eql "Todos os posts são do user_id #{@user["id"]}"
 end
