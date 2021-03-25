@@ -18,6 +18,7 @@ World(PageObjects)
 ##### ARQUIVOS CARREGADOS #####
 CONFIG = YAML.load_file(Dir.pwd + "/features/support/generators/fixtures/ambientes.yml") # Dir.pwd procura em toda raiz do projeto (Mais abrangente)
 USER = YAML.load_file(Dir.pwd + "/features/support/generators/fixtures/user.yml")
+API = YAML.load_file(Dir.pwd + "/features/support/generators/fixtures/ambientes_api.yml")
 
 ##### CONFIG CAPYBARA #####
 Capybara.configure do |config|

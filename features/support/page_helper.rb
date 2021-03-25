@@ -34,4 +34,12 @@ module PageObjects
   def payment
     @payment ||= Payment.new
   end
+
+  def api_users
+    @api_users ||= APIUsers.new
+  end
+
+  def api_auxiliar_functions
+    @api_auxiliar_functions ||= APIAuxiliarFunctions.new
+  end
 end

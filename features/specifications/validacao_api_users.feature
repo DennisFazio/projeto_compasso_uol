@@ -6,9 +6,9 @@
 
       @webservice @get_specific_user
       Cenario: validar se a API está retornando o código 200 e os dados corretos
-      Quando quando realizado um get passando um nome aleatório do arquivo de users
+      Quando quando realizado um get para users passando o nome '<Naik>'
       Então devo validar se o statuscode retornou 200
-      E validar se todos elementos do array data possuem o nome pesquisado
+      E validar se todos users retornados contem o nome pesquisado
 
       @webservice @get_posts
       Cenario: validar se a API está retornando o código 200 e os dados corretos
