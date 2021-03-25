@@ -22,26 +22,10 @@ API = YAML.load_file(Dir.pwd + "/features/support/generators/fixtures/ambientes_
 
 ##### CONFIG CAPYBARA #####
 Capybara.configure do |config|
-  config.default_driver = :selenium_chrome #:chrome # :selenium_chrome_headless ou :selenium_chrome
+  config.default_driver = :selenium_chrome # :selenium_chrome_headless ou :selenium_chrome
   config.javascript_driver = :selenium_chrome
   config.app_host = CONFIG[AMBIENTE]
   config.default_max_wait_time = 15
   Capybara.page.driver.browser.manage.window.maximize
   config.automatic_reload = true
-end
-
-Capybara.register_driver :chrome do |app|
-  Capybara::Selenium::Driver.new(app, browser: :chrome)
-end
-
-Capybara.register_driver :headless_chrome do |app|
-  capabilities = Selenium::WebDriver::Remote::Capabilities.chrome(
-    chromeOptions: {
-      args: %w[headless enable-features=NetworkService,NetworkServiceInProcess],
-    },
-  )
-
-  Capybara::Selenium::Driver.new app,
-    browser: :chrome,
-    desired_capabilities: capabilities
 end

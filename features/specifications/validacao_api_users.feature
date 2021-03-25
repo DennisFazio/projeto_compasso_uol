@@ -13,6 +13,7 @@
       @webservice @get_posts
       Cenario: validar se a API está retornando o código 200 e os dados corretos
       Dado quando realizado um get para api users sem passar parametros
+      E seleciono o primeiro usuario da lista
       Quando realizo um get para o endpoint posts com o primeiro ID User retornado do get anterior
       Então devo validar se o statuscode retornou 200
       E validar se todos os posts retornados são do usuário pesquisado

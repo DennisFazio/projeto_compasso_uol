@@ -2,17 +2,24 @@
 
 ######  DADO  ######
 Dado("quando realizado um get para api users sem passar parametros") do
-  pending # Write code here that turns the phrase above into concrete actions
+  @retorno_lista_usuarios = api_users.get_todos_usuarios
+end
+
+Dado("seleciono o primeiro usuario da lista") do
+  @user = api_auxiliar_functions.retorna_dados_primeiro_user(@retorno_lista_usuarios)
 end
 
 ######  QUANDO  ######
-Quando("quando realizado um get para users passando o nome {string}") do |name|
-  @name = name
+Quando("quando realizado um get para users passando o nome {string}") do |nome|
+  @name = nome
   @retorno = api_users.get_usuario_by_name(@name)
 end
 
 Quando("realizo um get para o endpoint posts com o primeiro ID User retornado do get anterior") do
-  pending # Write code here that turns the phrase above into concrete actions
+  #Coloquei esse post aqui pois em alguns testes o usuário buscado não tinha post.
+  #Isso garante que pelo menos um post terá.
+  api_users.post_posts_by_username_id(@user["id"])
+  @retorno = api_users.get_posts_by_username_id(@user["id"])
 end
 
 ######  ENTÃO  ######
@@ -27,5 +34,6 @@ Então("validar se todos users retornados contem o nome pesquisado") do
 end
 
 Então("validar se todos os posts retornados são do usuário pesquisado") do
-  pending # Write code here that turns the phrase above into concrete actions
+  expect(@retorno["code"]).to eql 200
+  ret = api_auxiliar_functions.verifica_retorno_posts_by_id(@retorno, @user["Id"])
 end
