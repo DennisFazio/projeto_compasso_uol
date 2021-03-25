@@ -14,7 +14,6 @@ Ambiente_Prod: -p bdd -p prod  -p json -p retry --publish-quiet
 prod: AMBIENTE=prod
 homolog: AMBIENTE=homolog
 
-
 #Relatórios
 html: --format html --out=logs/html/relatorio.html
 json: --format json --out=logs/json/report.json
